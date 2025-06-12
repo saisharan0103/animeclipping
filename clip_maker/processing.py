@@ -24,6 +24,8 @@ def convert_to_vertical(video_path: str, output_path: str, width: int, height: i
         Path to the converted video.
     """
     # TODO: implement video conversion using moviepy
+    # Steps might include creating a black canvas, resizing the
+    # source clip and centering it vertically on the canvas.
     return Path(output_path)
 
 
@@ -40,4 +42,5 @@ def split_video(path_to_video: str, output_folder: str, clip_duration: int) -> N
         Duration of each clip in seconds.
     """
     # TODO: implement splitting logic using moviepy
+    # Should output sequentially numbered clips of `clip_duration` seconds.
     pass

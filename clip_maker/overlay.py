@@ -3,7 +3,14 @@
 from moviepy.editor import TextClip, CompositeVideoClip, VideoFileClip
 
 
-def add_captions(video_clip: VideoFileClip, title: str, episode: str, width: int, height: int) -> CompositeVideoClip:
+def add_captions(
+    video_clip: VideoFileClip,
+    title: str,
+    episode: str,
+    width: int,
+    height: int,
+    style: str = "basic",
+) -> CompositeVideoClip:
     """Add top and bottom captions to a video clip.
 
     Parameters

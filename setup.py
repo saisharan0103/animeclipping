@@ -8,5 +8,10 @@ setup(
         "moviepy",
         "ffmpeg-python",
         "tqdm",
+        "openai-whisper",
+        "librosa",
+        "pydub",
+        "scenedetect",
+        "pandas",
     ],
 )
